@@ -27,3 +27,5 @@ If problem may arise please contact me on => finley.mwangola@student.moringascho
    **DELANI STUDIO**
    
   Copyright (c) 2021
+  
+  licensed under the [MIT license](license)
