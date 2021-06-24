@@ -1,113 +1,145 @@
 #img{
    
-   padding-top: 20%;
-   margin-left: 47%;
-   margin-right: 50%;
-
-}
-.container{
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-position: center;
-    background-size:flex;
-    background-repeat: no-repeat;
+    padding-top: 20%;
+    margin-left: 47%;
+    margin-right: 50%;
+ 
+ }
+ .container{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+     background-position: center;
+     background-size:flex;
+     background-repeat: no-repeat;
+     text-align: center;
+     color: white; 
+     padding-bottom: 12%;
+     font-weight: lighter;
+  font-size: x-large;
+ }
+ h2{
+     text-align: center;
+     color: white; 
+ }
+ h3{
+     text-align: center;
+     color:black; 
+     font-size: x-large; 
+ }
+ #about{
+     padding-top: 5%;
+     padding-bottom: 7%;
     text-align: center;
-    color: white; 
-    padding-bottom: 12%;
+    color: black;
     font-weight: lighter;
- font-size: x-large;
-}
-h2{
-    text-align: center;
-    color: white; 
-}
-h3{
-    text-align: center;
-    color:black; 
-    font-size: x-large; 
-}
-#about{
-    padding-top: 5%;
-    padding-bottom: 7%;
-   text-align: center;
-   color: black;
-   font-weight: lighter;
+ 
+     
+ }
+ #mouse{
+     color: white;
+     padding-top:15%;
+ }
+ #service{
+     padding-top: 10%;
+     text-align: center;
+     color: white;
+     font-size: x-large;
+     font-weight: lighter;
+     background-repeat: no-repeat;
+ }
+ 
+ .contact{
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ 
+ .column {
+     float:left;
+     width: 20%;
+     padding: 2px;
+     margin-left:15px;
+     background-position: center;
+     background-size: flex;
+     
+       }
+   
+   
+   .port::after {
+     content: "";
+ clear: both;
+     display: table;
+     
+   }
+   .portfolio{
+       text-align: center;
+       font-size: 30px;
+       font-weight: lighter;
+   }
+   .form{
+       margin-top: 15%;
+       
+   }
+   h6{
+       margin-top: 0;
+       text-align: center;
+       font-size: x-large;
+       font-weight: lighter;
+       padding:0;
+       padding-top: 0;
+   }
+ 
+   
+ .col{
+     margin-top: 25%;
+     float: left;
+     width: 9%;
+     padding: 0;
+     margin-bottom:1%;
+   }
+   
+   
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   .colu{
+     width: 9%;
+     float: left;
+     padding: 5%;
+     margin-left: 10%; 
+     font-size: larger;
+     text-align: center;
+ font-weight: bold;
+   }
 
-    
-}
-#mouse{
+   .text {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 175px;
+    transition: .5s ease;
+    opacity:0;
     color: white;
-    padding-top:15%;
-}
-#service{
-    padding-top: 10%;
-    text-align: center;
-    color: white;
-    font-size: x-large;
-    font-weight: lighter;
-    background-repeat: no-repeat;
-}
-
-.contact{
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.column {
-    float:left;
-    width: 20%;
+    font-size: 20px;
     padding: 20px;
-    margin-left:15px;
-    background-position: center;
-    background-size: flex;
-    
-      }
-  
-  
-  .port::after {
-    content: "";
-clear: both;
-    display: table;
-    
+    text-align: center;
   }
-  .portfolio{
-      text-align: center;
-      font-size: 30px;
-      font-weight: lighter;
+  .column {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    height: auto;
   }
-  .form{
-      margin-top: 15%;
-      
-  }
-  h6{
-      margin-top: 0;
-      text-align: center;
-      font-size: x-large;
-      font-weight: lighter;
-      padding:0;
-      padding-top: 0;
+  .column:hover .text{
+    opacity: 1;
   }
 
-  
-.col{
-    margin-top: 20%;
-    float: left;
-    width: 9%;
-    padding: 0;
-    margin-bottom:1%;
-  }
-  
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .colu{
-    width: 9%;
-    float: left;
-    padding: 5%;
-    margin-left: 10%; 
-    font-size: larger;
-    text-align: center;
-font-weight: bold;
+  form{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      opacity: 0.5;
+      text-align: center;
   }
